@@ -1,7 +1,3 @@
-img {
-    background-color: red;
-}
-
 
 /* Nav styles*/
 .nav-bar{
@@ -67,6 +63,7 @@ img {
     max-width: 30%;
     height:auto;
     margin-right: 10%;
+    border:1px solid #424756;
    }
 
 
@@ -193,7 +190,6 @@ footer ul{
        .project-img img{
         max-width: 90%;
         height:auto;
-        border: 1px solid black;
         margin-bottom: 3%;
     }
 
@@ -270,7 +266,6 @@ text-align: center;
         .project-img img{
          max-width: 90%;
          height:auto;
-         border: 1px solid black;
          margin-bottom: 3%;
         }
 
