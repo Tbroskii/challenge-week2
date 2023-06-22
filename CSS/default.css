@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Setting up the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Setting up a basic flexbox */
+  .flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling example items */
+  .item {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
